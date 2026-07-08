@@ -1,9 +1,7 @@
 # Projeto 3 - PWM e Comunicação com ESP32
-
-Nome / Número USP
-Lucas Manoel Freitas da Silva / 15471884
-Gabriel Suerdieck Nardelli / 15453960
-Ulisses Lombardi Campos / 14781443
+Lucas Manoel Freitas da Silva - 15471884 /
+Gabriel Suerdieck Nardelli - 15453960 /
+Ulisses Lombardi Campos - 14781443 /
 
 ## 1. Introdução
 
