@@ -1,10 +1,10 @@
-# Projeto3_PWM_ESP32N
+# Projeto 3 - PWM e Comunicação com ESP32
+
 Nome / Número USP
 Lucas Manoel Freitas da Silva / 15471884
 Gabriel Suerdieck Nardelli / 15453960
 Ulisses Lombardi Campos / 14781443
 
-# Projeto 3 - PWM e Comunicação com ESP32
 ## 1. Introdução
 
 Este projeto foi desenvolvido usando a placa ESP32 DevKit no simulador Wokwi. O objetivo foi praticar o uso de PWM, comunicação serial, leitura analógica, controle de servomotor, display OLED via I2C e o periférico MCPWM da ESP32.
