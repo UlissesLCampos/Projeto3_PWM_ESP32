@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 0, "left": -4.76, "attrs": {} },
+    {
+      "type": "wokwi-servo",
+      "id": "servo1",
+      "top": 198.8,
+      "left": -246.8,
+      "rotate": 180,
+      "attrs": {}
+    },
+    { "type": "wokwi-potentiometer", "id": "pot1", "top": -10.9, "left": -240.2, "attrs": {} }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "servo1:V+", "esp:5V", "#8f4814", [ "h57.6", "v-57.7" ] ],
+    [ "servo1:GND", "esp:GND.1", "black", [ "h38.4", "v-76.8" ] ],
+    [ "pot1:VCC", "esp:3V3", "red", [ "v19.2", "h114.4", "v-48" ] ],
+    [ "pot1:GND", "esp:GND.2", "black", [ "v38.4", "h-48", "v-115.2", "h384", "v48" ] ],
+    [ "esp:34", "pot1:SIG", "green", [ "h-28.65", "v19.2", "h-172.8" ] ],
+    [ "servo1:PWM", "esp:18", "green", [ "h9.6", "v-0.2", "h211.2", "v-134.4" ] ]
+  ],
+  "dependencies": {}
+}
